@@ -13,6 +13,11 @@
           fetch="https://gitlab.com/twiceos"
           revision="ten" />
 
+  <remote name="pixel-gitlab"
+          fetch="https://gitlab.com/PixelExperience"
+          fetch="https://gitlab.pixelexperience.org/android"
+          revision="ten" />
+
   <remote name="gitlab"
           fetch="https://gitlab.com" />
 
