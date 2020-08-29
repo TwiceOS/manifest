@@ -152,6 +152,7 @@
   <project path="external/libcxx" name="external_libcxx" remote="twice" />
   <project path="external/libhevc" name="external_libhevc" remote="twice" />
   <project path="external/libtextclassifier" name="external_libtextclassifier" remote="twice" />
+  <project path="external/motorola/faceunlock" name="external_motorola_faceunlock" remote="pixel-gitlab" />
   <project path="external/selinux" name="external_selinux" remote="twice" />
   <project path="external/skia" name="external_skia" remote="twice" />
   <project path="external/tinyalsa" name="external_tinyalsa" remote="twice" />
