@@ -15,6 +15,9 @@
 
   <remote name="pixel-gitlab"
           fetch="https://gitlab.com/PixelExperience"
+          revision="ten" />
+
+  <remote name="pixel-gitlab-self-hosted"
           fetch="https://gitlab.pixelexperience.org/android"
           revision="ten" />
 
@@ -59,7 +62,6 @@
   <project path="hardware/qcom-caf/sm8150/audio" name="hardware_qcom_audio" revision="pixel_ten_caf-sm8150" remote="twice" />
   <project path="hardware/qcom-caf/sm8150/display" name="hardware_qcom_display" revision="pixel_ten_caf-sm8150" remote="twice" />
   <project path="hardware/qcom-caf/sm8150/media" name="hardware_qcom_media" revision="pixel_ten_caf-sm8150" remote="twice" />
-  <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="vendor_qcom_opensource_commonsys_packages_apps_Bluetooth" remote="twice" />
   <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="twice" />
   <project path="vendor/qcom/opensource/fm-commonsys" name="vendor_qcom_opensource_fm-commonsys" remote="twice" />
   <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="twice" />
@@ -125,12 +127,16 @@
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="twice" />
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="twice" />
   <project path="packages/apps/CarrierConfig" name="packages_apps_CarrierConfig" remote="twice" />
+  <project path="packages/apps/Car/Settings" name="packages_apps_Car_Settings" remote="twice" />
   <project path="packages/apps/CertInstaller" name="packages_apps_CertInstaller" remote="twice" />
   <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" remote="twice" />
+  <project path="packages/apps/EmergencyInfo" name="packages_apps_EmergencyInfo" remote="twice" />
   <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="twice" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="twice" />
+  <project path="packages/apps/PermissionController" name="packages_apps_PackageInstaller" remote="twice" />
   <project path="packages/apps/Recorder" name="packages_apps_Recorder" remote="twice" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="twice" />
+  <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="twice" />
   <project path="packages/apps/Snap" name="packages_apps_Snap" remote="twice" />
   <project path="packages/apps/Stk" name="packages_apps_Stk" remote="twice" />
   <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="twice" />
@@ -145,15 +151,21 @@
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="twice" />
 
   <!-- External repos -->
+  <project path="external/aac" name="external_aac" remote="twice" />
   <project path="external/cldr" name="external_cldr" remote="twice" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="twice" />
+  <project path="external/freetype" name="external_freetype" remote="twice" />
   <project path="external/gptfdisk" name="external_gptfdisk" remote="twice" />
   <project path="external/icu" name="external_icu" remote="twice" />
+  <project path="external/libaom" name="external_libaom" remote="twice" />
   <project path="external/libcxx" name="external_libcxx" remote="twice" />
+  <project path="external/libexif" name="external_libexif" remote="twice" />
   <project path="external/libhevc" name="external_libhevc" remote="twice" />
   <project path="external/libtextclassifier" name="external_libtextclassifier" remote="twice" />
-  <project path="external/motorola/faceunlock" name="external_motorola_faceunlock" remote="pixel-gitlab" />
+  <project path="external/motorola/faceunlock" name="external_motorola_faceunlock" remote="pixel-gitlab-self-hosted" />
+  <project path="external/motorola/faceunlock-res" name="external_motorola_faceunlock-res" remote="twicel" />
   <project path="external/selinux" name="external_selinux" remote="twice" />
+  <project path="external/sonivox" name="external_sonivox" remote="twice" />
   <project path="external/skia" name="external_skia" remote="twice" />
   <project path="external/tinyalsa" name="external_tinyalsa" remote="twice" />
   <project path="external/tinycompress" name="external_tinycompress" remote="twice" />
@@ -175,7 +187,9 @@
   <project path="system/core" name="system_core" remote="twice" />
   <project path="system/hardware/interfaces" name="system_hardware_interfaces" remote="twice" />
   <project path="system/keymaster" name="system_keymaster" remote="twice" />
+  <project path="system/libufdt" name="system_libufdt" remote="twice" />
   <project path="system/netd" name="system_netd" remote="twice" />
+  <project path="system/nfc" name="system_nfc" remote="twice" />
   <project path="system/sepolicy" name="system_sepolicy" remote="twice" />
   <project path="system/timezone" name="system_timezone" remote="twice" />
   <project path="system/update_engine" name="system_update_engine" remote="twice" />
