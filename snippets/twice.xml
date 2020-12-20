@@ -5,6 +5,11 @@
           fetch="https://github.com/TwiceOS"
           revision="ten" />
 
+  <remote name="pixel"
+          fetch="https://github.com/PixelExperience"
+          revision="ten"
+          review="gerrit.pixelexperience.org" />
+
   <remote name="twice-devices"
           fetch="https://github.com/TwiceOS-Devices"
           revision="ten" />
@@ -163,7 +168,7 @@
   <project path="external/libhevc" name="external_libhevc" remote="twice" />
   <project path="external/libtextclassifier" name="external_libtextclassifier" remote="twice" />
   <project path="external/motorola/faceunlock" name="external_motorola_faceunlock" remote="pixel-gitlab-self-hosted" />
-  <project path="external/motorola/faceunlock-res" name="external_motorola_faceunlock-res" remote="twicel" />
+  <project path="external/motorola/faceunlock-res" name="external_motorola_faceunlock-res" remote="pixel" />
   <project path="external/selinux" name="external_selinux" remote="twice" />
   <project path="external/sonivox" name="external_sonivox" remote="twice" />
   <project path="external/skia" name="external_skia" remote="twice" />
